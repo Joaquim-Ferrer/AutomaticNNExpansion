@@ -1,0 +1,6 @@
+n_epochs: 50
+n_experiments: 10
+initial_config_conv: [32, "M", 64]
+initial_config_linear: [100, 10]
+neuron_choosing_strategy: low
+expantion_schedule: [(5, "0"), (10, "1")]
